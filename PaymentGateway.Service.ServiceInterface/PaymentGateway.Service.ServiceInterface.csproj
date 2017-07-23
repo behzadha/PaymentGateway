@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PaymentGateway.Service.ServiceModel\PaymentGateway.Service.ServiceModel.csproj" />
+    <ProjectReference Include="..\src\PaymentGateway.DataModel\PaymentGateway.DataModel.csproj" />
+  </ItemGroup>
+
+</Project>
